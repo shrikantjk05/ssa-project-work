@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome");
+		System.out.println("Welcome to Banking Application");
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Please enter integer number");
-		int x= sc.nextInt();
-		System.out.println("You have entered "+x);
+		System.out.println("Enter you Name : ");
+		String name = sc.nextLine();
+  		System.out.println("Enter Customer account number : ");
+    	String accountNumber = sc.nextLine();
+
 	}
 }
