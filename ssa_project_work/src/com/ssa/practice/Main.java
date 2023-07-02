@@ -11,6 +11,7 @@ public class Main {
 		String name = sc.nextLine();
   		System.out.println("Enter Customer account number : ");
     	String accountNumber = sc.nextLine();
-
+    	System.out.println("Enter Debitcard number : ");
+        String debitcardnumber= sc.nextLine();
 	}
 }
