@@ -29,14 +29,13 @@ public class Main {
 		 * System.out.println("View Balance  Press D : ");
 		 * System.out.println("Exit          Press E : ");
 		 */
-
+		Banking D=new Banking(name, accountNumber, 10, 0, Id, sc);
 		System.out.println("Press : ");
 		String press = sc.next();
 		switch (press) {
 		case "A":
-			Banking D=new Banking();
+			
 			D.Deposit();
-			/* System.out.println("Deposit       Press A : "); */
 			break;
 		case "B":
 			System.out.println("Withdrawl     Press B : ");
